@@ -1,0 +1,31 @@
+extends ./template/layout.pug
+
+block content
+	.layout
+		h1 Иван Зимин
+
+		p.
+			Мне #[span#years], живу в
+			#[span.location Санкт-Петербурге],
+			работаю в
+			#[a.work.work_current(href='https://nexign.com', target='_blank') Nexign].
+			#[br]
+			В качестве хобби держу #[a(href='https://vk.com/mwdays', target='_blank') сервер Counter-Strike 1.6] и пишу для него плагины.
+
+		ul.layout__contacts
+			li
+				a(href='tel:89319537803') 8 931 953-78-03
+			li
+				a(href='mailto:hello@iwonz.ru') hello@iwonz.ru
+			li
+				a(href='https://vk.com/iwonz', target='_blank') VK#[span : vk.com/iwonz]
+			li
+				a(href='https://t.me/iwonz', target='_blank') Telegram#[span : t.me/iwonz]
+			li
+				a(href='https://instagram.com/i.wonz', target='_blank') Instagram#[span : instagram.com/i.wonz]
+			li
+				a(href='https://twitter.com/i_wonz', target='_blank') Twitter#[span : twitter.com/i_wonz]
+			li
+				a(href='https://github.com/iwonz', target='_blank') GitHub#[span : github.com/iwonz]
+			li._print-hidden
+				a(href='https://spb.hh.ru/resume/29a5254bff027681830039ed1f634731577872', target='_blank') Резюме

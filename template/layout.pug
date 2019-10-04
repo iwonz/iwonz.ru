@@ -1,0 +1,67 @@
+doctype html
+html(lang='ru', dir='ltr')
+  head
+    meta(charset='utf-8')
+
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+
+    title Иван Зимин
+    meta(name='keywords', content='')
+    meta(name='description', content='')
+
+    meta(name='format-detection', content='telephone=no')
+    meta(http-equiv='x-rim-auto-match', content='none')
+
+    link(rel='shortcut icon', href='/favicon.ico')
+    link(rel='apple-touch-icon-precomposed', sizes='57x57', href='/img/favicons/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x114', href='/img/favicons/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x72', href='/img/favicons/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon-precomposed', sizes='144x144', href='/img/favicons/apple-touch-icon-144x144.png')
+    link(rel='apple-touch-icon-precomposed', sizes='60x60', href='/img/favicons/apple-touch-icon-60x60.png')
+    link(rel='apple-touch-icon-precomposed', sizes='120x120', href='/img/favicons/apple-touch-icon-120x120.png')
+    link(rel='apple-touch-icon-precomposed', sizes='76x76', href='/img/favicons/apple-touch-icon-76x76.png')
+    link(rel='apple-touch-icon-precomposed', sizes='152x152', href='/img/favicons/apple-touch-icon-152x152.png')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-196x196.png', sizes='196x196')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-96x96.png', sizes='96x96')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-16x16.png', sizes='16x16')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-128.png', sizes='128x128')
+
+    meta(name='application-name', content='Иван Зимин')
+    meta(name='msapplication-TileColor', content='#FFFFFF')
+    meta(name='msapplication-TileImage', content='/img/favicons/mstile-144x144.png')
+    meta(name='msapplication-square70x70logo', content='/img/favicons/mstile-70x70.png')
+    meta(name='msapplication-square150x150logo', content='/img/favicons/mstile-150x150.png')
+    meta(name='msapplication-wide310x150logo', content='/img/favicons/mstile-310x150.png')
+    meta(name='msapplication-square310x310logo', content='/img/favicons/mstile-310x310.png')
+
+    meta(property='og:type', content='website')
+    meta(property='og:url', content='http://iwonz.ru')
+    meta(property='og:title', content='Иван Зимин')
+    meta(property='og:image', content='http://iwonz.ru/img/favicons/apple-touch-icon-114x114.png')
+    meta(property='og:description', content='')
+    meta(property='og:site_name', content='Иван Зимин')
+    meta(property='og:locale', content='ru_RU')
+
+    meta(name='twitter:card', content='summary')
+    meta(name='twitter:site', content='@iwonzimin')
+    meta(name='twitter:creator', content='@iwonzimin')
+    meta(name='twitter:url', content='http://iwonz.ru')
+    meta(name='twitter:title', content='Иван Зимин')
+    meta(name='twitter:description', content='')
+    meta(name='twitter:image', content='http://iwonz.ru/img/favicons/apple-touch-icon-114x114.png')
+
+    meta(property='og:image:width', content='114')
+    meta(property='og:image:height', content='114')
+
+    link(href='https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic,cyrillic-ext,latin-ext', rel='stylesheet')
+    link(href='/css/main.css', rel='stylesheet', media='all')
+
+    script.
+      (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter46927872 = new Ya.Metrika({ id:46927872, clickmap:true, trackLinks:true, accurateTrackBounce:true, ut:"noindex" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
+
+  body(onload="years.innerHTML = (function(years){y=Math.abs(years)%100;yx=y%10;if(y>10&&y<20)return years+' лет';else if(yx>1&&yx<5)return years+' года';else if(yx===1)return years+' год';else return years+' лет'})(~~((Date.now()-new Date(1995,09,14))/31536000000))")
+
+    block content

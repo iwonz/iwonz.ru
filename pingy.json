@@ -1,0 +1,45 @@
+{
+	"name": "iwonz.ru",
+	"exportDir": "./dist",
+	"minify": true,
+	"compile": true,
+	"sourceMap": false,
+	"exclusions": [
+		{
+			"path": "node_modules",
+			"action": "exclude",
+			"type": "dir"
+		},
+		{
+			"path": "template",
+			"action": "exclude",
+			"type": "dir"
+		},
+		{
+			"path": "pingy.json",
+			"action": "exclude",
+			"type": "file"
+		},
+    {
+      "path": "package.json",
+      "action": "exclude",
+      "type": "file"
+    },
+    {
+      "path": "package-lock.json",
+      "action": "exclude",
+      "type": "file"
+    },
+    {
+      "path": ".gitignore",
+      "action": "exclude",
+      "type": "file"
+    },
+    {
+      "path": ".editorconfig",
+      "action": "exclude",
+      "type": "file"
+    }
+	],
+	"port": 16237
+}
